@@ -1,0 +1,10 @@
+.result{
+    height: calc(100vh - 44.6vh);
+    overflow: hidden;
+    flex-grow: 1;
+    padding: .4rem;
+    &__frame{
+        border: 0;
+        // width: 100vw;
+    }
+}
