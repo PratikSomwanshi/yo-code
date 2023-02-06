@@ -3,7 +3,6 @@ import HtmlCssJs from "./HtmlCssJsEditor/HtmlCssJs";
 import "./Editor.scss";
 import { useDispatch } from "react-redux";
 import { addSourceData } from "../../store/slices";
-import useLocalStorage from "../../hooks/useLocalStorage";
 
 const EditorPanel = () => {
     const dispatch = useDispatch();
