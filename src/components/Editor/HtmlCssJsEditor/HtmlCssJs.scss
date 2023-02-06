@@ -1,0 +1,27 @@
+.HtmlCssJs{
+    // flex-grow: 0.12;;
+    flex-grow: 1;
+    flex-basis: 0;
+    // max-width: calc(95vw);
+    overflow: hidden;
+    scrollbar-width: none;
+    // position: absolute;
+
+    &.close{
+        flex-grow: 0.15;
+    }
+
+    &__heading{
+        display: flex;
+        justify-content: space-between;
+        padding: .3rem .6rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    button{
+        background-color: transparent;
+        border: none;
+        margin-right: 0.3rem;
+    }
+}
